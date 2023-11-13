@@ -1,4 +1,6 @@
-# **Nikita Korp**
+# **Nikita Korp**  
+
+![goslingimg](https://github.com/spykius/rsschool-cv/assets/127765441/6671af29-8ba9-42f8-91e3-1b7e88f0858a)
 
 ## **Contact information**
 
