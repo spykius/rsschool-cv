@@ -33,6 +33,9 @@ function getMiddle(s){
 }
 ```
 
+## **Work Experience**
+- [CV](https://spykius.github.io/rsschool-cv/cv) ([source code](https://github.com/spykius/rsschool-cv)): Markdown & Git 
+
 ## **Education**
 
 - **University:** Yanka Kupala State University of Grodno, Faculty of Mathematics and Informatics
