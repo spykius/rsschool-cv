@@ -32,3 +32,11 @@ function getMiddle(s){
   return (s.length % 2 == 0) ? s[(s.length / 2) - 1] + s[s.length / 2] : s[(s.length - 1) / 2];
 }
 ```
+
+## **Education**
+
+- **University:** Yanka Kupala State University of Grodno, Faculty of Mathematics and Informatics
+- **Courses:**
+  - HTML and CSS tutorials on the [code-basics](https://ru.code-basics.com/)
+  - HTML and CSS tutorials on the [codecademy](https://www.codecademy.com/)
+  - JavaScript tutorials on [learn.javascript.ru](https://learn.javascript.ru/)
