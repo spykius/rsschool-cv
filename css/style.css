@@ -374,3 +374,27 @@ body {
   text-align: justify;
   color: rgba(0, 0, 0, 0.8);
 }
+
+/* education */
+.education__subtitle {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #343434;
+}
+
+.education__studies {
+  font-size: 16px;
+  line-height: 24px;
+  color: #343434;
+}
+
+.education__years {
+  font-size: 14px;
+  line-height: 18px;
+  color: #73808d;
+}
+
+.education {
+  margin-bottom: 15px;
+}
