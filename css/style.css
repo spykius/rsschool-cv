@@ -398,3 +398,30 @@ body {
 .education {
   margin-bottom: 15px;
 }
+
+/* courses */
+.courses {
+  margin-bottom: 15px;
+}
+
+.list__name {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343434;
+  margin-bottom: 10px;
+}
+
+.courses__name:last-child {
+  margin-bottom: 0;
+}
+
+.list__circle {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #545454;
+  margin-right: 5px;
+}
