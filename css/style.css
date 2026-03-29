@@ -425,3 +425,8 @@ body {
   background-color: #545454;
   margin-right: 5px;
 }
+
+/* code */
+.code {
+  margin-bottom: 15px;
+}
