@@ -430,3 +430,13 @@ body {
 .code {
   margin-bottom: 15px;
 }
+
+/* projects */
+.projects__link {
+  color: #343434;
+}
+
+.projects__link:hover {
+  font-weight: 700;
+  color: #000000;
+}
