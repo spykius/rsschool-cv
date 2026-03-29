@@ -1,15 +1,318 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <h1>Nikita Korp</h1>
-</body>
-
+  <body>
+    <div class="wrapper">
+      <!--header-->
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <div class="nav__container content-bg">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#contacts" class="nav__link">Contacts</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#languages" class="nav__link">Languages</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#summary" class="nav__link">Summary</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#education" class="nav__link">Education</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#courses" class="nav__link">Courses</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#code" class="nav__link">Code</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#projects" class="nav__link">Projects</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--main-->
+      <main class="content">
+        <div class="container">
+          <div class="content__row">
+            <div class="resume-left content-bg">
+              <div class="resume-left__body">
+                <div class="resume-left__column">
+                  <!--profile section-->
+                  <section class="profile">
+                    <div class="profile__container">
+                      <div class="profile__image">
+                        <img src="assets/img/avatar.jpg" alt="avatar" />
+                      </div>
+                      <div class="profile__body">
+                        <h1 class="profile__title">Korp <span>Nikita</span></h1>
+                        <span class="profile__profession">Web developer</span>
+                      </div>
+                    </div>
+                  </section>
+                  <!--contacts section-->
+                  <section class="contacts" id="contacts">
+                    <h2 class="contacts__title l-section-title">Contacts</h2>
+                    <ul class="contacts__list">
+                      <li class="contacts__item content-bg">
+                        <a href="tel:+375336218266">
+                          <span class="contacts__icon"
+                            ><i class="ri-phone-fill ri-xl"></i
+                          ></span>
+                          <span class="contacts__text">+375 33 6218266</span>
+                        </a>
+                      </li>
+                      <li class="contacts__item content-bg">
+                        <a href="mailto:betaquarius203@gmail.com">
+                          <span class="contacts__icon"
+                            ><i class="ri-mail-fill ri-xl"></i
+                          ></span>
+                          <span class="contacts__text"
+                            >betaquarius203@gmail.com</span
+                          >
+                        </a>
+                      </li>
+                      <li class="contacts__item content-bg">
+                        <a href="https://t.me/fatalist">
+                          <span class="contacts__icon"
+                            ><i class="ri-telegram-fill ri-xl"></i
+                          ></span>
+                          <span class="contacts__text">@fatalist</span>
+                        </a>
+                      </li>
+                      <li class="contacts__item content-bg">
+                        <a href="https://github.com/spykius">
+                          <span class="contacts__icon"
+                            ><i class="ri-github-fill ri-xl"></i
+                          ></span>
+                          <span class="contacts__text">spykius</span>
+                        </a>
+                      </li>
+                      <li class="contacts__item content-bg">
+                        <a
+                          href="https://discordapp.com/users/833709831441219606/"
+                        >
+                          <span class="contacts__icon"
+                            ><i class="ri-discord-fill ri-xl"></i
+                          ></span>
+                          <span class="contacts__text"
+                            >Nikita Korp (@spykius)</span
+                          >
+                        </a>
+                      </li>
+                    </ul>
+                  </section>
+                  <!--skills section-->
+                  <section class="skills content-bg" id="skills">
+                    <h2 class="skills__title l-section-title">Skills</h2>
+                    <ul class="skills__list">
+                      <li class="skills__item">
+                        <span class="skills__text">HTML5</span>
+                        <div class="skills__rounds-box">
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot"></span>
+                          <span class="skills__dot"></span>
+                        </div>
+                      </li>
+                      <li class="skills__item">
+                        <span class="skills__text">CSS3</span>
+                        <div class="skills__rounds-box">
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot"></span>
+                          <span class="skills__dot"></span>
+                        </div>
+                      </li>
+                      <li class="skills__item">
+                        <span class="skills__text">JavaScript</span>
+                        <div class="skills__rounds-box">
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot"></span>
+                          <span class="skills__dot"></span>
+                          <span class="skills__dot"></span>
+                        </div>
+                      </li>
+                      <li class="skills__item">
+                        <span class="skills__text">Git, GitHub</span>
+                        <div class="skills__rounds-box">
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot checked"></span>
+                          <span class="skills__dot"></span>
+                          <span class="skills__dot"></span>
+                          <span class="skills__dot"></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                  <!--languages section-->
+                  <section class="languages content-bg" id="languages">
+                    <h2 class="languages__title l-section-title">Languages</h2>
+                    <ul class="languages__list">
+                      <li class="languages__item">
+                        <span class="languages__text">English - B1</span>
+                      </li>
+                      <li class="languages__item">
+                        <span class="languages__text"
+                          >Russian - native speaker</span
+                        >
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class="resume-right">
+              <div class="resume-right__body">
+                <div class="resume-right__column">
+                  <!--summary section-->
+                  <section class="summary" id="summary">
+                    <div class="summary__title r-section-head">
+                      <h2 class="r-section-title">About</h2>
+                    </div>
+                    <div class="summary__text">
+                      <p>
+                        I am 28 years old and I work as a software maintenance
+                        specialist. Having development experience, I want to
+                        deepen my knowledge in frontend.
+                      </p>
+                      <p>
+                        I consider myself a responsible, independent, reliable
+                        and accurate person.
+                      </p>
+                      <p>
+                        There are several goals to me. Firstly, to gain
+                        knowledge, skills and practical experience in front-end
+                        development. Secondly, temporarily become part of a
+                        large community, work with other people and improve
+                        communication skills.
+                      </p>
+                    </div>
+                  </section>
+                  <!--education section-->
+                  <section class="education" id="education">
+                    <div class="education__title r-section-head">
+                      <h2 class="r-section-title">Education</h2>
+                    </div>
+                    <div class="education__data">
+                      <div class="education__subtitle">
+                        Faculty of Mathematics and Informatics
+                      </div>
+                      <div class="education__studies">
+                        Yanka Kupala State University of Grodno
+                      </div>
+                      <div class="education__years">2015 - 2019</div>
+                    </div>
+                  </section>
+                  <!--courses section-->
+                  <section class="courses" id="courses">
+                    <div class="courses__title r-section-head">
+                      <h2 class="r-section-title">Courses</h2>
+                    </div>
+                    <ul class="courses__data">
+                      <li class="list__name">
+                        <span class="list__circle"></span> Code Basics: HTML
+                      </li>
+                      <li class="list__name">
+                        <span class="list__circle"></span> Code Basics: CSS
+                      </li>
+                      <li class="list__name">
+                        <span class="list__circle"></span> Code Basics:
+                        JavaScript
+                      </li>
+                    </ul>
+                  </section>
+                  <!--code section-->
+                  <section class="code" id="code">
+                    <div class="code__title r-section-head">
+                      <h2 class="r-section-title">Code</h2>
+                    </div>
+                    <pre
+                      class="hljs"
+                      style="
+                        display: block;
+                        overflow-x: auto;
+                        padding: 0.5em;
+                        color: rgb(51, 51, 51);
+                        background: rgb(248, 248, 248);
+                      "
+                    >function getMiddle(<span class="hljs-keyword" style="color: rgb(51, 51, 51); font-weight: 700;">s</span>){
+ <span class="hljs-keyword" style="color: rgb(51, 51, 51); font-weight: 700;">return</span> (<span class="hljs-keyword" style="color: rgb(51, 51, 51); font-weight: 700;">s</span>.length % <span class="hljs-number" style="color: teal;">2</span> == <span class="hljs-number" style="color: teal;">0</span>) ? <span class="hljs-keyword" style="color: rgb(51, 51, 51); font-weight: 700;">s</span>[(<span class="hljs-keyword" style="color: rgb(51, 51, 51); font-weight: 700;">s</span>.length / <span class="hljs-number" style="color: teal;">2</span>) - <span class="hljs-number" style="color: teal;">1</span>] + <span class="hljs-keyword" style="color: rgb(51, 51, 51); font-weight: 700;">s</span>[<span class="hljs-keyword" style="color: rgb(51, 51, 51); font-weight: 700;">s</span>.length / <span class="hljs-number" style="color: teal;">2</span>] : <span class="hljs-keyword" style="color: rgb(51, 51, 51); font-weight: 700;">s</span>[(<span class="hljs-keyword" style="color: rgb(51, 51, 51); font-weight: 700;">s</span>.length - <span class="hljs-number" style="color: teal;">1</span>) / <span class="hljs-number" style="color: teal;">2</span>]<span class="hljs-comment" style="color: rgb(153, 153, 136); font-style: italic;">;</span>
+}
+									</pre>
+                  </section>
+                  <!--projects section-->
+                  <section class="projects" id="projects">
+                    <div class="projects__title r-section-head">
+                      <h2 class="r-section-title">Projects</h2>
+                    </div>
+                    <ul class="projects__data">
+                      <li class="list__name">
+                        <span class="list__circle"></span>
+                        <a
+                          class="projects__link"
+                          href="https://spykius.github.io/rsschool-cv/cv"
+                          >Markdown CV</a
+                        >
+                      </li>
+                      <li class="list__name">
+                        <span class="list__circle"></span> Will be apdated with
+                        new material soon
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!--footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__container">
+            <div class="footer__row">
+              <div class="footer__git">
+                <a class="git__link" href="https://github.com/spykius"
+                  ><i class="ri-github-fill ri-4x"></i
+                ></a>
+              </div>
+              <div class="footer__text">
+                <span>&#169; 2026</span>
+              </div>
+              <div class="footer_logo">
+                <a href="https://rs.school/courses/javascript-ru"
+                  ><img
+                    src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/78abefa42ee2c50401e2e6adcb5122e6aa7de9bb/tasks/cv/rs-school-logo.svg"
+                    alt="rs-school logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
