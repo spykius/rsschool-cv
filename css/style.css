@@ -88,3 +88,88 @@ body {
 .nav__link:hover {
   color: #545454;
 }
+
+/* main */
+.content {
+  flex: 1 1 auto;
+}
+
+.content__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 14px 10px 14px;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 56, 244, 0.71) 0%,
+    rgba(224, 37, 206, 0.79) 93.75%
+  );
+}
+
+.resume-left {
+  flex: 0 1 371px;
+}
+
+.resume-left__body {
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+.resume-left__column {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 20px 0px;
+}
+
+/* profile */
+.profile {
+  margin-bottom: 20px;
+}
+
+.profile__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile__image {
+  flex: 0 0 120px;
+}
+
+.profile__image img {
+  max-width: 100%;
+  border-radius: 93px;
+}
+
+.profile__body {
+  flex: 1 1 auto;
+  padding-left: 30px;
+}
+
+.profile__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color: #cecaca;
+}
+
+.profile__title span {
+  display: block;
+  margin: 5px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.profile__profession {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #cecaca;
+}
