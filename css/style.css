@@ -480,3 +480,25 @@ body {
 .footer_logo img {
   max-width: 100%;
 }
+
+.hljs{
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: rgb(51, 51, 51);
+  background: rgb(248, 248, 248);
+}
+
+.hljs-keyword {
+  color: rgb(51, 51, 51); 
+  font-weight: 700;
+}
+
+.hljs-number {
+  color: teal;
+}
+
+.hljs-comment {
+  color: rgb(153, 153, 136); 
+  font-style: italic;
+}
